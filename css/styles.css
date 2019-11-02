@@ -1,11 +1,15 @@
 @import url("bootstrap.css");
 .first {
-    background-image:url(../images/heading.jpg);
-    height: 100vh;
-    text-align: center;
-    background-size: cover;
-    padding-top: 300px;
+  background-image: url(../images/heading.jpg);
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  padding-top: 300px;
 }
-.third{
-    background-image: url(../images/centre.jpg);
+.third {
+  background-image: url(../images/centre.jpg);
+  color: white;
+}
+.text-center {
+  font-size: 15px;
 }
