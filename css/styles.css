@@ -1,0 +1,7 @@
+@import url("bootstrap.css");
+.first {
+    background-image:url(../images/heading.jpg);
+}
+.third{
+    background-image: url(../images/centre.jpg);
+}
