@@ -13,3 +13,7 @@
 .text-center {
   font-size: 15px;
 }
+.contact {
+    background: url(../images/footer.jpg);
+    height: 50vh;
+}
