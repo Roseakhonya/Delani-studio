@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <title>Delani</title>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="first">
+      <div id="first">
         <div id="logo_h">
-          <div id="logo">
-            <img src="images/logo.png">
-          </div>
-          <h1>WELCOME <span>TO DELANI STUDIO</span></h1>
+          <img src="images/logo.png">
+          <h1>WELCOME <span class="d-block">TO DELANI STUDIO</span></h1>
           <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
         </div>
         <img src="images/mouse_click.png" id="mouse">
@@ -27,7 +30,7 @@
           aspects of our software development process are intergrated, interactive
           and agile.
         </p>
-          <p>Our approach unifies design, development and product
+        <p>Our approach unifies design, development and product
           management to create exceptional products.
         </p>
         <p>We start each project by understanding your business goals, the user's needs and the product
@@ -37,7 +40,7 @@
         </p>
       </div>
       <div class="third text-center">
-      ` <h2>SERVICES</h2>
+       <h2>SERVICES</h2>
         <div id="describe">
           <p>Before we sign a contract or write a line of code our team will spend
           the necessary time needed to understand your product vision.The outcome of this scoping session 
@@ -47,7 +50,7 @@
       </div>
       <div class="about text-center">
         <h2>WHAT WE DO</h2>
-        <div class="row">
+        <div class="row" id="my-design">
           <div class="col-4">
             <div id="img-design">
               <img src="images/design_icon.png">
@@ -82,18 +85,15 @@
             <div id="manage">
               <h3>PRODUCT MANAGEMENT</h3>
               <p>
-                Planning and development is iterative.
-              </p>
-              <p>   
+                Planning and development is iterative   
                 Because we are constantly coding
                 and testing, the products we build are always ready to go live.
-              </p>
-              <p> 
                 This iterative process allows for changes as business requirements evolve.
               </p>
             </div>
           </div>
         </div>
+        <p>PORTFOLIO</p>
         <div class="portfolio">
           <div class="row" id="portfolio">
             <div class= col-md-3>
@@ -181,7 +181,5 @@
         <p>2019</p>
       </div>
     </div>
-    <link href="js/scipt.js">
-    <link href="js/jquery.js">
   </body>
 </html>

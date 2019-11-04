@@ -1,10 +1,10 @@
 @import url("bootstrap.css");
-.first {
+#first {
   background-image: url(../images/heading.jpg);
   height: 100vh;
   text-align: center;
   background-size: cover;
-  
+  background-attachment: fixed;
 }
 .third {
   background-image: url(../images/centre.jpg);
@@ -58,9 +58,18 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#logo_h{
-  margin-top: 10px;
+#logo_h {
+  padding-top: 30vh;
 }
+
+#mouse {
+  padding-top: 10vh;
+}
+h1,
+h6 {
+  padding-top: 5vh;
+}
+
 #manage {
   display: none;
 }
