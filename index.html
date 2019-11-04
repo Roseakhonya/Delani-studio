@@ -10,10 +10,14 @@
   <body>
     <div class="container-fluid">
       <div class="first">
-        <img src="images/logo.png">
-        <h1>WELCOME <span>TO DELANI STUDIO</span></h1>
-        <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
-        <img src="images/mouse_click.png">
+        <div id="logo_h">
+          <div id="logo">
+            <img src="images/logo.png">
+          </div>
+          <h1>WELCOME <span>TO DELANI STUDIO</span></h1>
+          <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
+        </div>
+        <img src="images/mouse_click.png" id="mouse">
       </div>  
       <div class="text-center">
       
@@ -86,7 +90,7 @@
           </div>
         </div>
         <div class="portfolio">
-          <div class="row">
+          <div class="row" id="portfolio">
             <div class= col-md-3>
               <img class="img-fluid" src="images/port1.jpg">
             </div>
@@ -115,33 +119,56 @@
           </div>
         </div>
       </div>
-      <div class="contact">
+      <!-- <div class="row contact">
         <p>CONTACT US</p>
         <form action="" id="myForm" class="form">
-          <fieldset>
-            <input type="text" id="Name" placeholder="Name">
-          </fieldset>
-          <fieldset>
-            <input type="text" id="mail" placeholder="Email">
-          </fieldset>
-          <fieldset>
-            <input type="text" id="message" placeholder="Your message here..........">
-          </fieldset>
+          <div class="container">
+            <div class="row" id="texta">
+              <fieldset>
+                <input type="text" id="Name" placeholder="Name">
+              </fieldset>
+              <fieldset>
+                <input type="text" id="mail" placeholder="Email">
+              </fieldset>
+            </div>
+          </div>
+          <div class="row message">
+            <fieldset>
+              <input type="text" id="message" placeholder="Your message here..........">
+            </fieldset>
+          </div>
           <input type="submit" value="SEND">
         </form>
+      </div> -->
+      <div class="row" id="contact-form">
+        <div class="container">
+          <form>
+            <div id="mail-name">
+              <input type="text" value="name" id="name" placeholder="your name">
+              <input type="email" value="email" id="email" placeholder="your email">
+            </div>
+            <div id="message">
+              <textarea placeholder="your message please"></textarea>
+            </div>
+            <div id="btn">
+              <button>Submit</button>
+            </div>
+          </form>
         </div>
       </div>
       <div class="footer">
         <div class="row">
-          <img src="images/twitter.png">
-          <img src="images/dribble.png">
-          <img src="images/facebook.png">  
-          <img src="images/g_plus.png">
-          <img src="images/skype.png">
-          <img src="images/stumble_upon.png">
-          <img src="images/behance.png">
-          <img src="images/pinterest.png">
-          <img src="images/flickr.png">
+          <div class="container" id="images">
+            <img src="images/twitter.png">
+            <img src="images/dribble.png">
+            <img src="images/facebook.png">  
+            <img src="images/g_plus.png">
+            <img src="images/skype.png">
+            <img src="images/stumble_upon.png">
+            <img src="images/behance.png">
+            <img src="images/pinterest.png">
+            <img src="images/flickr.png">
+          </div>
         </div>
       </div>
       <div class="copyright">
