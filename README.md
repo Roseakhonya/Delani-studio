@@ -6,7 +6,7 @@ This is a web application that belongs to a software engineer who helps his clie
 <img src="images/readme.png" alt="screenshot"> 
 
 ## BDD
-This application functions in such a way that it gives you the details of the business by  
+This application functions in such a way that it gives you the details of the business by allowing you fill a form and type in a message to reach out to us. It also gives you the social media pages on how to reach us.
 ## Techologies used
 This application was developed by incorporating the use of:
 - HTML 
@@ -14,8 +14,11 @@ This application was developed by incorporating the use of:
 - Bootstrap
 - Javascript
 - Jquery
+
+## Known Bugs
+-When the activities are clicked twice the description does not hide
 ## Accessibility
-Find the application on ""
+Find the application on "https://roseakhonya.github.io/Delani-studio/"
 ## Contributions
 - Go to github search Roseakhonya/Name-generator
 - Fork it
