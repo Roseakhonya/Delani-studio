@@ -61,3 +61,12 @@ button {
 #logo_h{
   margin-top: 10px;
 }
+#manage {
+  display: none;
+}
+#design {
+  display: none;
+}
+#develop {
+  display: none;
+}
