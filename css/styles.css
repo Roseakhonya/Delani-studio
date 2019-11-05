@@ -13,6 +13,29 @@
 .text-center {
   font-size: 15px;
 }
+
+.portfolio1,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio5,
+.portfolio6,
+.portfolio7,
+.portfolio8 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  position: absolute;
+  color: deeppink;
+  font-size: 2rem;
+  background: #fff;
+  display: none;
+}
+
 .contact {
   background: url(../images/footer.jpg);
   height: 50vh;
